@@ -1,0 +1,32 @@
+1)Globally Scoped-var variable is declared outside a function.
+
+2)Function Scoped-var is declared within a function.
+
+A]Var->
+
+1)var is used for variable declaration.
+
+2)var is function/local scoped.
+
+3)var variables can be re-declared and updated.
+
+4)Hoisting of var->var variables are hoisted to the top of their scope and initialized with a value of undefined.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+B]Let->
+
+1)let is used for variable declaration.
+
+2)let is block scoped.
+
+3)let can be updated but not re-declared.
+
+4)Hoisting of let->let keyword are hoisted to the top of their scope and its not initialized.
+	           So if you try to use a let variable before declaration, you'll get a Reference Error.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+B]Const->
+
+const is same as let but you cannot reassign the values
