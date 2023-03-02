@@ -1,6 +1,10 @@
-1)Globally Scoped-var variable is declared outside a function.
+SCOPE->
 
-2)Function Scoped-var is declared within a function.
+1)Globally Scoped variable is declared outside a function.
+
+2)Function Scoped is declared within a function.
+
+3)Block Scoped is declared within a Block.
 
 A]Var->
 
