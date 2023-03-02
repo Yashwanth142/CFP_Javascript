@@ -1,3 +1,4 @@
+//**************************************** Callback ****************************************
 //Callback->A callback is function passed as an argument to another function.
 
 //A callback is function that is to be executed after another function has finished executing.hence the name callback.
@@ -74,6 +75,7 @@ firstFunction(args, function() {
 
 //callback hell can be avoided using Promises and async.
 
+//**************************************** Promise ****************************************
 // Promises-> are used to handle asynchronous operations in JavaScript. They are easy to manage when dealing with
 // multiple asynchronous operations where callbacks can create callback hell leading to unmanageable code.
 // Promise Syntax
