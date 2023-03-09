@@ -1,0 +1,231 @@
+Mongoose->
+
+Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node. js. It manages relationships between data, provides schema validation, and 
+is used to translate between objects in code and the representation of those objects in MongoDB.
+
+Mongoose allows users to conveniently create and manage data in MongoDB.
+
+Mongoose provides 2 ways of doing this, methods and statics. Methods adds an instance method to documents 
+whereas Statics adds static "class" methods to the Models itself.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Express->
+
+Develops Node.js web applications quickly and easily.
+It’s simple to set up and personalise.
+Allows you to define application routes using HTTP methods and URLs.
+Includes a number of middleware modules that can be used to execute additional requests and responses activities.
+Simple to interface with a variety of template engines, including Jade, Vash, and EJS.
+Allows you to specify a middleware for handling errors.
+
+Validator is an Express middleware library that you can incorporate in your apps for server-side data validation.
+
+express js
+Express is a node js web application framework that provides broad features for building web and mobile applications. It is used to build a single page, multipage, and hybrid web application.
+It's a layer built on the top of the Node js that helps manage servers and routes.
+
+express json
+json() is a built-in middleware function in Express. This method is used to parse the incoming requests with JSON payloads and is based upon the bodyparser. This method returns the middleware that 
+only parses JSON and only looks at the requests where the content-type header matches the type option.
+
+So the difference is express. json() is a body parser for post request except html post form and express. 
+urlencoded({extended: false}) is a body parser for html post form.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+npm->
+
+npm stands for Node Package Manager. It's a library and registry for JavaScript software packages.
+npm also has command-line tools to help you install the different packages and manage their dependencies
+
+npm install -g express-api-cli  this installs the express-api-cli globally on your computer
+exp-api create test-project
+
+with the help of express-api-cli
+you can start a new project faster with pre-configured packages.
+Reduce time taken to configure your project.
+Express-api-cli allows you to generate different files for different parts of your project such as (controller, services, routes, test), etc
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Babel->
+
+Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards 
+compatible version of JavaScript in current and older browsers or environments.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+CORS->
+
+CORS or Cross-Origin Resource Sharing in Node.js is a mechanism by which a front-end client can make requests
+for resources to an external back-end server.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Helmet->
+
+Helmet helps you secure your Express apps by setting various HTTP headers.
+
+Helmet and Cors are 2 important node. js packages with different purposes. Helmet secures your express app by setting response HTTP headers appropriately, 
+while Cors enables your express application access control to allow restricted resources from being accessed from external domains
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Routing->
+
+Routing refers to determining how an application responds to a client request to a particular endpoint, 
+which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
+
+The Router is just there to help you organize the application across multiple modules
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+HTPPS status code->
+
+An HTTP status code is a server response to a browser's request. 
+When you visit a website, your browser sends a request to the site's server,and the server then responds to the browser's request with a three-digit code: the HTTP status code
+
+Informational responses ( 100 – 199 )
+Successful responses (200 – 299)
+Redirection messages (300 – 399)
+Client error responses (400 – 499)
+Server error responses (500 – 599)
+
+1)1xx: Informational
+  It means the request has been received and the process is continuing.
+
+100 Continue	   			
+101 Switching Protocols			
+
+2)2xx: Successful
+
+200 OK	        			
+202 Accepted				
+203 Non-authoritative Information	
+204 No Content				
+205 Reset Content			
+
+3)3xx: Redirection
+It means further action must be taken in order to complete the request.
+
+300 Multiple Choices			
+301 Moved Permanently			
+302 Found				
+303 See Other				
+304 Not Modified			
+305 Use Proxy				
+306 Unused				
+307 Temporary Redirect			
+
+4)4xx: Client Error
+It means the request contains incorrect syntax or cannot be fulfilled.
+
+400 Bad Request				
+401 Unauthorized			
+402 Payment Required			
+403 Forbidden				
+404 Not Found				
+406 Not Acceptable			
+407 Proxy Authentication Required	
+408 Request Timeout			
+409 Conflict				
+410 Gone				
+411 Length Required			
+415 Unsupported Media Type		
+417 Expectation Failed	
+		
+5)5xx: Server Error
+500 Internal Server Error	
+501 Not Implemented	
+502 Bad Gateway	
+503 Service Unavailable	
+504 Gateway Timeout	
+505 HTTP Version Not Supported	
+
+
+HTTPS method->
+
+The result meaning of "success" depends on the HTTP method: GET : The resource has been fetched and transmitted in the message body.
+HEAD : The representation headers are included in the response without any message body. PUT or POST : 
+The resource describing the result of the action is transmitted in the message body
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Schema->
+
+A  schema is just a map of keys and types: That's the same as using a type property: 
+A schema can also be a map between keys and default values
+schema is a new way of describing object schemas in JavaScript.
+It has a clean and simple syntax, and it is capable of serializing to/from the JSON Schema format.
+The typical use case is declarative object validation
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+MCV->
+
+MVC is abbreviated as Model View Controller is a design pattern created for developing applications specifically web applications. 
+As the name suggests, it has three major parts. The traditional software design pattern works in an "Input - Process - Output" pattern 
+whereas MVC works as "Controller -Model - View" approach. With the emergence of the MVC model, creation of application takes different aspects individually into consideration. 
+
+These aspects of the application are:
+UI Logic
+Input logic
+Business Logic
+
+Model->
+The Model encloses the clean application related data.
+But the model does not deal with any logic about how to present the data.
+Model: Model represents the shape of the data.
+
+Controller: The Controller is in between the model and the view element. 
+It listens to all the incident and actions triggered in the view and performs an appropriate response back to the events.
+
+Controller: The controller handles the user request. Typically, the user uses the view and raises 
+an HTTP request, which will be handled by the controller. 
+The controller processes the request and returns the appropriate view as a response
+
+View: The View element is used for presenting the data of the model to the user. 
+This element deals with how to link up with the model's data but doesn't provide any 
+logic regarding what this data all about or how users can use these data.
+
+View: View in MVC is a user interface. View display model data to the user and also enables them to modify them.
+View in ASP.NET MVC is HTML, CSS, and some special syntax (Razor syntax) that makes it easy to 
+communicate with the model and the controller.
+
+MVC stands for Model, View and Controller.
+Model represents the data
+View is the User Interface.
+Controller is the request handler.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+.env->
+
+The.env file is a hidden file that is used to pass environment variables to your application. 
+This file is secret, no one but you can access it, and it can be used to store data that you want to keep private or hidden.
+For example, you can store API keys from external services or your database URI.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Middlewares->
+
+middlewares, where you can define all your route-level middle-wares once and call it in your routes as chained-functions.
+
+Services directory will be holding the services files, which deals with the business logic of the API. 
+This is a final filtration before sending it to the Data Access Layer, here we filter the data received 
+into the final payload for querying with the database. The files in this directory will deal with processing the payload to the format, 
+it should be in to be stored into the database.
+
+Models directory will be holding files that keeps the schema/data models that is required for your current project.
+
+Routes directory will be holding the route files, where Routing refers to how an application’s endpoints (URIs) respond to client requests. 
+It basically defines your app routes.
+
+Controllers directory will be holding the controller files, wherein the controller files deal with 
+validation of the data, whatever that is been sent from the frontend.
+The request and response handling is taken care in this directory.
+
+utils directory-->that will have all the utilities and helpers needed for the application. 
+It will also act as a place to put shared logic, if any.
+
+test directory-->has all the testing code in it.
+
+unit directory-->unit folder inside the test folder will have a structure similar to the src folder, 
+as each file in the src folder will need a test.
+
+config directory-->which keeps all the configs needed for the application. For example, if the app connects to a database, 
+the configuration for the database (like database name and username) can be put in a file like db.config.js
