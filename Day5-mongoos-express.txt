@@ -68,7 +68,7 @@ POST Base_URL/deleteMany
 POST Base_URL/aggregate
 
 --------------------------------------------------------------------------------------------------------------------------------------
- 
+
 Mongooes->It help us to established the connection between nodejs & mongodb.
 
 -Mongoose is an Object Data Modeling(ODM) library for MongoDB & Node.js.It manages the relationship between data ,provides schema validation & is used to translate between objects in code & the representation of those objects in MongoDB.
